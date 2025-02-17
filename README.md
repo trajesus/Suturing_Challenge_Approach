@@ -6,3 +6,7 @@ Team Algoritmi's attempt at [this challenge](https://www.synapse.org/Synapse:syn
 Use of YOLO for feature extraction and a multilayer percep-
 tron network for classification of surgeons’ skills in open suturing.
 #### Keywords: Surgery · Skill Evaluation · YOLO · MLP · Regression
+
+
+# Pipeline
+![Our proposed pipeline](/pipeline.jpg "Pipeline")
