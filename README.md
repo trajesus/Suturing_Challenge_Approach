@@ -1,4 +1,4 @@
-# Suturing_Chalange_Approach
+# Suturing_Chalenge_Approach
 Team Algoritmi's attempt at [this challenge](https://www.synapse.org/Synapse:syn54123724), which achieved the 4<sup>th</sup> place.
 
 
