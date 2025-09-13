@@ -2,6 +2,9 @@
 Team Algoritmi's attempt at [this challenge](https://www.synapse.org/Synapse:syn54123724), which achieved the 4<sup>th</sup> place.
 
 
+[![DOI:<10.7303/syn63200006>](https://img.shields.io/badge/DOI-10.7303/syn63200006-blue)](https://doi.org/10.7303/syn63200006)
+
+
 # Abstract
 Use of YOLO for feature extraction and a multilayer percep-
 tron network for classification of surgeons’ skills in open suturing.
