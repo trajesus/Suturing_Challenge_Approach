@@ -1,12 +1,14 @@
-# OSS Challenge Approach for 2024
-Team Algoritmi's attempt at [this challenge](https://www.synapse.org/Synapse:syn54123724), which achieved the 4<sup>th</sup> place.
+# Team Algoritmi's OSS Challenge Approach
+Team Algoritmi's attempt at the Open Suturing Skills Challenge.
 
 
-# Abstract
-Use of YOLO for feature extraction and a multilayer percep-
-tron network for classification of surgeons’ skills in open suturing.
-#### Keywords: Surgery · Skill Evaluation · YOLO · MLP · Regression
+Versions attended:
+- [2024](https://www.synapse.org/Synapse:syn54123724), which achieved the 4<sup>th</sup> place.
+- [2025](https://www.synapse.org/Synapse:syn66256386).
 
+<!---
+![miccai Logo](./img/miccai2024-logo.png)
+![miccai Logo](./img/miccai2025-logo.png)
+-->
 
-# Pipeline
-![Our proposed pipeline](/pipeline.jpg "Pipeline")
+![Endovision Logo](./img(endovisLogo_OSS.png)
