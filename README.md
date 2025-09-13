@@ -5,7 +5,7 @@ Team Algoritmi's attempt at the Open Suturing Skills Challenge.
 Versions attended:
 - [2024](https://www.synapse.org/Synapse:syn54123724), which achieved the 4<sup>th</sup> place.
 [![DOI:<10.7303/syn63200006>](https://img.shields.io/badge/DOI-10.7303/syn63200006-blue)](https://doi.org/10.7303/syn63200006)
-- [2025](https://www.synapse.org/Synapse:syn66256386).
+- [2025](https://www.synapse.org/Synapse:syn66256386).<!--- [![DOI:<10.7303/syn63200006>](https://img.shields.io/badge/DOI-10.7303/syn63200006-blue)](https://doi.org/10.7303/syn63200006)  TODO: change to correct doi--> 
 
 <!---
 ![miccai Logo](./img/miccai2024-logo.png)
@@ -15,4 +15,4 @@ Versions attended:
 [![DOI:<10.7303/syn63200006>](https://img.shields.io/badge/DOI-10.7303/syn63200006-blue)](https://doi.org/10.7303/syn63200006)
 -->
 
-![Endovision Logo](./img(endovisLogo_OSS.png)
+![Endovision Logo](./img/endovisLogo_OSS.png)
