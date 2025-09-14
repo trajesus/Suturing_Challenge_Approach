@@ -84,24 +84,12 @@ class TwoStage_VideoScoringModel_YOLO_ResNet_LSTM_Task2(nn.Module):
         lstm_dropout = kwargs.get('lstm_dropout', 0.6)
 
         try:
-            yolo_local_repo_path = './yolov5' 
-            self.detector = torch.hub.load(yolo_local_repo_path, 'custom', path=yolo_model_path,source='local').to(device)
+            self.detector = torch.hub.load('ultralytics/yolov5', 'custom', path=yolo_model_path).to(device)
             self.detector.eval()
             for param in self.detector.parameters(): param.requires_grad = False
         except Exception as e: self.detector = None; print(f"Erro ao carregar YOLO: {e}")
 
-        #self.roi_feature_extractor = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
-
-        self.roi_feature_extractor = models.resnet50(weights=None) 
-
-        resnet_local_weights_path = 'resnet50-weights.pth'
-
-        if os.path.exists(resnet_local_weights_path):
-            print("Carregar pesos ResNet 50 de: {resnet_local_weights_path}")
-            self.roi_feature_extractor.load_state_dict(torch.load(resnet_local_weights_path))
-        else:
-            print(f"AVISO: Ficheiro de pesos '{resnet_local_weights_path}' não encontrado. A ResNet não será pré-treinada.")
-        
+        self.roi_feature_extractor = models.resnet50(weights=models.ResNet50_Weights.DEFAULT)
         self.backbone_out_features = self.roi_feature_extractor.fc.in_features
         self.roi_feature_extractor.fc = nn.Identity()
 
