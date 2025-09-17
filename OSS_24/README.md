@@ -18,4 +18,4 @@ tron network for classification of surgeons’ skills in open suturing.
 # Results
 
 
-![OSS and MICCAI Logo](./img/endovis_miccai24.png)
+<img src="./img/endovis_miccai24.png" alt="OSS and MICCAI Logo" width="100%">

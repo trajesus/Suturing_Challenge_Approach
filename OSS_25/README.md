@@ -16,4 +16,4 @@ Synapse project: [![DOI:<10.7303/syn69735749>](https://img.shields.io/badge/DOI-
 
 
 
-![OSS and MICCAI Logo](./img/endovis_miccai25.png)
+<img src="./img/endovis_miccai25.png" alt="OSS and MICCAI Logo" width="100%">
