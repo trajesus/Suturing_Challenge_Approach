@@ -53,10 +53,10 @@ Suturing_Challenge_Approach is a comprehensive developer toolkit designed for th
 - 🌐🔒 **Open-Source Collaboration:** Clear licensing and structured architecture foster open innovation.
 
 Versions attended:
-- [2024](https://www.synapse.org/Synapse:syn54123724), which achieved the 4<sup>th</sup> place in task 1.
+- [2024](https://www.synapse.org/Synapse:syn54123724), which achieved the 4<sup>th</sup> place in task 1.\
 [![DOI:<10.7303/syn63200006>](https://img.shields.io/badge/DOI-10.7303/syn63200006-blue)](https://doi.org/10.7303/syn63200006)
 Code [here](./OSS_24)
-- [2025](https://www.synapse.org/Synapse:syn66256386), which achieved the 🥈2<sup>nd</sup> place in task 2.
+- [2025](https://www.synapse.org/Synapse:syn66256386), which achieved the 4<sup>th</sup> place in task 1, 🥈2<sup>nd</sup> place in task 2 and 🥉3<sup>rd</sup> place in task 3.\
 [![DOI:<10.7303/syn69735749>](https://img.shields.io/badge/DOI-10.7303/syn69735749-blue)](https://doi.org/10.7303/syn69735749)
 Code [here](./OSS_25)
 
